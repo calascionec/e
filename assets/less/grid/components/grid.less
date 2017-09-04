@@ -1,0 +1,22 @@
+.grid {
+  box-sizing: border-box;
+  padding: 0 @mobile-gutter;
+
+  @media (min-width: @sm) {
+    padding: 0 @tablet-gutter;
+  }
+
+  @media (min-width: @md) {
+    padding: 0 @gutter;
+  }
+
+  .variant(container; {
+    margin: 0 auto;
+    max-width: (@container-max-width + (@gutter * 2));
+    width: 100%;
+  });
+
+  .variant(no-gutters, {
+    padding: 0;
+  });
+}

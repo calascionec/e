@@ -1,0 +1,43 @@
+.hero {
+    background-size: cover;
+    background-position: center;
+    padding: @vertical-spacing--desktop-small 0;
+
+    margin-bottom: 10px;
+}
+
+.hero__text-container {
+    max-width: 320px;
+}
+
+.hero__header {
+    font-family: 'Prompt';
+    font-weight: 700;
+    padding: 0 .5em;
+    /* Needs prefixing */
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    line-height: 1.35;
+}
+
+.hero__title {
+    color: @white;
+    background-color: rgba(255,129,0,.73);
+    font-size: 2.4rem;
+}
+
+.hero__sub-title {
+    color: @econolight-dark-blue;
+    background-color: rgba(255,255,255,.73);
+    font-size: 1.8rem;
+}
+
+.hero__title-container--two-lines {
+    display: flex;
+    flex-wrap: wrap;
+
+    & .hero__header:last-of-type {
+        margin-left: auto;
+        margin-top: -5px;
+    }
+}

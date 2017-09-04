@@ -1,0 +1,18 @@
+.col {
+  box-sizing: border-box;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0 0 @mobile-gutter @mobile-gutter;
+
+  @media (min-width: @sm) {
+    padding: 0 0 @tablet-gutter @tablet-gutter;
+  }
+
+  @media (min-width: @md) {
+    padding: 0 0 @gutter @gutter;
+  }
+
+  .variant(no-gutters; {
+    padding: 0;
+  });
+}

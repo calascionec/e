@@ -1,14 +1,14 @@
 <div class="grid grid--container grid--xs-no-gutters grid--sm-add-gutters">
     <article class="hero" style="background-image: url('/assets/images/hero.jpg')">
         <div class="hero__text-container">
-            <h1 class="hero__title-container--two-lines">
-                <span class="hero__title hero__header">HIGH EFFICIENCY</span>
+            <h1 class="highlighted-text__title-container--two-lines">
+                <span class="highlighted-text__title highlighted-text">HIGH EFFICIENCY</span>
                 <br />
-                <span class="hero__title hero__header">HIGH BAY LIGHTING.</span>
+                <span class="highlighted-text__title highlighted-text highlighted-text--align-right">HIGH BAY LIGHTING.</span>
             </h1>
             <div class="text--center">
                 <h2>
-                    <span class="hero__sub-title hero__header">NOT SO HIGH PRICES.</span>
+                    <span class="highlighted-text__sub-title highlighted-text">NOT SO HIGH PRICES.</span>
                 </h2>
             </div>
         </div>

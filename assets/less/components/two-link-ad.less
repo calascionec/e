@@ -1,0 +1,40 @@
+.two-link-ad__title {
+    font-family: Oswald-Regular;
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 1.167;
+    margin-bottom: 35px;
+}
+
+.two-link-ad__links-container {
+
+}
+
+.two-link-ad__link {
+    display: flex;
+    color: @econolight-dark-blue;
+    text-decoration: none;
+    font-family: Oswald-Regular;
+    font-size: 18px;
+    color: #004C97;
+    letter-spacing: .061em;
+    line-height: 1.167;
+
+    &:not(:last-of-type) {
+        margin-bottom: 35px;
+    }
+
+    &:hover {
+        color: @econolight-light-blue;
+    }
+}
+
+.two-link-ad__icon {
+    font-size: 39px;
+    margin-right: .64em;
+
+    .two-link-ad__link:hover & {
+        color: @econolight-orange;
+    }
+}

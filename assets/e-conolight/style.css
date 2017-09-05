@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'e-conolight';
+  src:  url('fonts/e-conolight.eot?qdedsz');
+  src:  url('fonts/e-conolight.eot?qdedsz#iefix') format('embedded-opentype'),
+    url('fonts/e-conolight.ttf?qdedsz') format('truetype'),
+    url('fonts/e-conolight.woff?qdedsz') format('woff'),
+    url('fonts/e-conolight.svg?qdedsz#e-conolight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'e-conolight' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-outdoor-lighting:before {
+  content: "\e900";
+}
+.icon-indoor-lighting:before {
+  content: "\e901";
+}

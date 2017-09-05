@@ -1,7 +1,7 @@
 <div class="grid grid--container">
     <section>
-        <div class="deals-header">
-            <h2 class="deals__tile">TODAY'S DEALS</h2>
+        <div class="deals__header">
+            <h2 class="deals__title">TODAY'S DEALS</h2>
             <a class="button" href="#">VIEW ALL DEALS</a>
         </div>
         <div class="row">

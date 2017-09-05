@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import '../assets/e-conolight/style.css';
 html,
 body,
 div,
@@ -1480,16 +1481,7 @@ table {
     margin-left: 100%;
   }
 }
-.hero {
-  background-size: cover;
-  background-position: center;
-  padding: 25px 0;
-  margin-bottom: 10px;
-}
-.hero__text-container {
-  max-width: 320px;
-}
-.hero__header {
+.highlighted-text {
   font-family: 'Prompt';
   font-weight: 700;
   padding: 0 .5em;
@@ -1498,17 +1490,17 @@ table {
   -webkit-box-decoration-break: clone;
   line-height: 1.35;
 }
-.hero__title {
+.highlighted-text__title {
   color: #fff;
   background-color: rgba(255, 129, 0, 0.73);
   font-size: 2.4rem;
 }
-.hero__sub-title {
+.highlighted-text__sub-title {
   color: #004c97;
   background-color: rgba(255, 255, 255, 0.73);
   font-size: 1.8rem;
 }
-.hero__title-container--two-lines {
+.highlighted-text__title-container--two-lines {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -1518,14 +1510,33 @@ table {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
-.hero__title-container--two-lines .hero__header:last-of-type {
-  margin-left: auto;
+.highlighted-text__title-container--two-lines .highlighted-text:last-of-type {
   margin-top: -5px;
+}
+.highlighted-text--align-right {
+  margin-left: auto;
+}
+.highlighted-text--align-left {
+  margin-right: auto;
+}
+.highlighted-text--align-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero {
+  background-size: cover;
+  background-position: center;
+  padding: 25px 0;
+  margin-bottom: 10px;
+}
+.hero__text-container {
+  max-width: 320px;
 }
 .product-add {
   background: #FFFFFF;
   box-shadow: 0 0 2px 0 #B2B3B3;
   padding: 20px 10px;
+  margin-bottom: 40px;
 }
 .product-add__title {
   text-align: center;
@@ -1592,6 +1603,30 @@ table {
   letter-spacing: 0;
   line-height: 23.04px;
 }
+.deals__header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.deals__title {
+  font-family: Oswald-Regular;
+  font-size: 24px;
+  color: #000000;
+  letter-spacing: 0;
+}
 .product-deal {
   background: #FFFFFF;
   box-shadow: 1px 1px 4px 0 #B2B3B3;
@@ -1609,21 +1644,21 @@ table {
   font-family: Oswald-Regular;
   font-size: 17px;
   color: #000000;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.012em;
   margin-bottom: 1.3em;
 }
 .product-deal__was {
   font-family: Prompt-Light;
-  font-size: 11px;
+  font-size: 12px;
   color: #000000;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.025em;
   margin-bottom: 1em;
 }
 .product-deal__price {
   font-family: Prompt-Bold;
   font-size: 18px;
   color: #000000;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.022em;
 }
 .product-deal__savings {
   background-color: #004c97;
@@ -1656,6 +1691,177 @@ table {
 .button:hover {
   background-color: #0072ce;
 }
+.button--white {
+  color: #004c97;
+  background-color: #fff;
+}
+.button--white:hover {
+  color: #fff;
+  background-color: #0072ce;
+}
+.two-link-ad__title {
+  font-family: Oswald-Regular;
+  font-size: 24px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 1.167;
+  margin-bottom: 35px;
+}
+.two-link-ad__link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #004c97;
+  text-decoration: none;
+  font-family: Oswald-Regular;
+  font-size: 18px;
+  color: #004C97;
+  letter-spacing: .061em;
+  line-height: 1.167;
+}
+.two-link-ad__link:not(:last-of-type) {
+  margin-bottom: 35px;
+}
+.two-link-ad__link:hover {
+  color: #0072ce;
+}
+.two-link-ad__icon {
+  font-size: 39px;
+  margin-right: .64em;
+}
+.two-link-ad__link:hover .two-link-ad__icon {
+  color: #ff915d;
+}
+.callout {
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  padding: 20px 15px;
+  box-shadow: 1px 1px 6px 0 rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+@media (max-width: 640px) {
+  .callout {
+    background-image: none !important;
+  }
+}
+.callout__header {
+  color: #000;
+  font-family: 'Prompt';
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.callout__text {
+  color: #004c97;
+  font-family: 'Oswald';
+  font-size: 2.4rem;
+}
+.callout__link:after {
+  content: '';
+  position: absolute;
+  height: 0;
+  background-color: #ff915d;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  -moz-transition: height 0.2s ease-in-out;
+  transition: height 0.2s ease-in-out;
+}
+.callout__link:hover:after {
+  height: 16px;
+}
+.cta-ad {
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -moz-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.cta-ad--product {
+  background-image: -moz-radial-gradient(#0072CE 49%, #004C97 100%);
+  background-image: radial-gradient(#0072CE 49%, #004C97 100%);
+}
+.cta-ad__link {
+  text-decoration: none;
+  color: #fff;
+}
+.cta-ad__link-small {
+  position: relative;
+  padding-bottom: 100%;
+  width: 100%;
+}
+.cta-ad__link-product {
+  padding: 25px 10px 0;
+}
+.cta-ad__title-small {
+  font-weight: 700;
+  font-size: 1.6rem;
+  letter-spacing: .05em;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  line-height: 1;
+  padding: 0 .5em;
+  text-transform: uppercase;
+}
+.cta-ad__title-large {
+  font-size: 2.4rem;
+  font-family: 'Oswald';
+  margin-bottom: 1em;
+}
+.cta-ad__copy-container {
+  margin-bottom: 25px;
+}
+.cta-ad__product-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.cta-ad__copy {
+  font-size: 1.8rem;
+  margin-bottom: 1em;
+}
+.cta-ad__link-text {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-family: 'Oswald';
+}
+.cta-ad__link-text:hover {
+  text-decoration: underline;
+}
+.cta-ad__content-container {
+  padding: 20px 10px 25px;
+}
+.footer-banner {
+  padding: 50px 0;
+  background-color: #004c97;
+  color: #fff;
+}
+.footer-banner__title {
+  font-family: Oswald-Regular;
+  font-size: 24px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  margin-bottom: 30px;
+}
 * {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -1667,8 +1873,37 @@ html {
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 1.4rem;
 }
 .img-responsive {
   max-width: 100%;
   height: auto;
+}
+.centering-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.max-width-60 {
+  max-width: 60%;
+}
+.no-bottom-padding {
+  padding-bottom: 0;
 }

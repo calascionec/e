@@ -9,15 +9,20 @@
 @font-family__serif: 'Oswald';
 @import '../assets/e-conolight/style.css';
 
+@import 'components/header.less';
 @import 'components/highlighted-text.less';
 @import 'components/hero.less';
-@import 'components/product-add.less';
+@import 'components/product-ad.less';
 @import 'components/product-deal.less';
 @import 'components/buttons.less';
 @import 'components/two-link-ad.less';
 @import 'components/callout.less';
 @import 'components/cta.less';
 @import 'components/footer-banner.less';
+@import 'components/slick.less';
+@import 'components/section.less';
+@import 'components/product-item.less';
+@import 'components/banner.less';
 
 * {
     box-sizing: border-box;
@@ -31,9 +36,17 @@ html {
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+    color: #000000;
+    font-family: 'Prompt', 'Prompt', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.42857143;
     font-size: 1.4rem;
 }
 
+a {
+    color: @econolight-dark-blue;
+}
 
 .img-responsive {
     max-width: 100%;
@@ -57,4 +70,35 @@ body {
 
 .no-bottom-padding {
     padding-bottom: 0;
+}
+
+.slider-container {
+    padding: 0 50px;
+    position: relative;
+}
+
+.slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    color: @white;
+    background-color: @econolight-dark-blue;
+    font-size: 2.2rem;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-arrow--next {
+    right: 0;
+}
+
+.slider-arrow--previous {
+    left: 0;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0;
 }

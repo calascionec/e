@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'e-conolight';
-  src:  url('fonts/e-conolight.eot?qdedsz');
-  src:  url('fonts/e-conolight.eot?qdedsz#iefix') format('embedded-opentype'),
-    url('fonts/e-conolight.ttf?qdedsz') format('truetype'),
-    url('fonts/e-conolight.woff?qdedsz') format('woff'),
-    url('fonts/e-conolight.svg?qdedsz#e-conolight') format('svg');
+  src:  url('fonts/e-conolight.eot?ur66t9');
+  src:  url('fonts/e-conolight.eot?ur66t9#iefix') format('embedded-opentype'),
+    url('fonts/e-conolight.ttf?ur66t9') format('truetype'),
+    url('fonts/e-conolight.woff?ur66t9') format('woff'),
+    url('fonts/e-conolight.svg?ur66t9#e-conolight') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-heart:before {
+  content: "\e902";
+}
 .icon-outdoor-lighting:before {
   content: "\e900";
 }

@@ -17,17 +17,17 @@
 
 
 <div class="grid grid--container">
-    <div class="product-add">
-        <h2 class="product-add__title">
+    <div class="product-ad">
+        <h2 class="product-ad__title">
             <span>SUMMER</span><span>SALE</span>
         </h2>
-        <div class="product-add__container">
-            <div class="product-add__image-container">
+        <div class="product-ad__container">
+            <div class="product-ad__image-container">
                 <img class="img-responsive" src="/assets/images/summersale.png" alt="3 lights">
             </div>
-            <div class="product-add__text-container">
-                <p class="product-add__text">All Hight Bay lighting</p>
-                <p class="product-add__link-text">UP TO 30% OFF ></p>
+            <div class="product-ad__text-container">
+                <p class="product-ad__text">All Hight Bay lighting</p>
+                <p class="product-ad__link-text">UP TO 30% OFF ></p>
             </div>
         </div>
     </div>

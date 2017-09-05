@@ -1592,12 +1592,77 @@ table {
   letter-spacing: 0;
   line-height: 23.04px;
 }
+.product-deal {
+  background: #FFFFFF;
+  box-shadow: 1px 1px 4px 0 #B2B3B3;
+}
+.product-deal__link {
+  text-decoration: none;
+}
+.product-deal__content-container {
+  padding: 10px 20px 20px;
+}
+.product-deal__image-container {
+  text-align: center;
+}
+.product-deal__title {
+  font-family: Oswald-Regular;
+  font-size: 17px;
+  color: #000000;
+  letter-spacing: 0.2px;
+  margin-bottom: 1.3em;
+}
+.product-deal__was {
+  font-family: Prompt-Light;
+  font-size: 11px;
+  color: #000000;
+  letter-spacing: 0.3px;
+  margin-bottom: 1em;
+}
+.product-deal__price {
+  font-family: Prompt-Bold;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0.4px;
+}
+.product-deal__savings {
+  background-color: #004c97;
+  padding: 8px 20px;
+}
+.product-deal__savings-amount {
+  font-family: Oswald-Regular;
+  font-size: 17px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+}
+.button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #004c97;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 2px;
+  letter-spacing: .107em;
+  padding: 1.2em 1.25em;
+}
+@media (min-width: 768px) {
+  .button {
+    font-size: 1.4rem;
+  }
+}
+.button:hover {
+  background-color: #0072ce;
+}
 * {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 html {
   font-size: 10px;
+  font-family: 'Prompt';
 }
 body {
   -webkit-font-smoothing: antialiased;

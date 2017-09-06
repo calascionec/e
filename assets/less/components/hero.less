@@ -4,8 +4,37 @@
     padding: @vertical-spacing--desktop-small 0;
 
     margin-bottom: 10px;
+
+    @media (min-width: @sm) {
+        display: flex;
+        padding: 45px 15px 15px 0;
+    }
+
+    @media (min-width: @lg) {
+        display: flex;
+        padding: 30px 65px 35px 0;
+    }
 }
 
 .hero__text-container {
     max-width: 320px;
+
+    @media (min-width: @sm) {
+        max-width: 465px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    @media (min-width: @xl) {
+        max-width: 870px;
+    }
+}
+
+.hero__title {
+
+}
+
+.hero__subtitle {
+
 }

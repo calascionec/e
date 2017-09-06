@@ -1,17 +1,73 @@
+.product-ad__outer-container {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
 .product-ad {
     background: #FFFFFF;
     box-shadow: 0 0 2px 0 #B2B3B3;
     padding: 20px 10px;
+    position: relative;
+
+    @media (min-width: @sm) {
+        padding: 20px;
+    }
+
+    @media (min-width: @md) {
+        padding: 40px;
+    }
+}
+
+.product-ad__mobile {
+    @media (min-width: @sm) {
+        display: none;
+    }
+}
+
+.product-ad__desktop {
+    display: none;
+
+    @media (min-width: @sm) {
+        display: inline-block;
+    }
 }
 
 .product-ad__title {
     text-align: center;
     margin-bottom: 18px;
 
+    @media (min-width: @sm) {
+        position: absolute;
+        top: 2px;
+        right: 2px;
+        line-height: 1;
+    }
+
+    @media (min-width: @xl) {
+        position: absolute;
+        top: 30px;
+        right: 15px;
+    }
+
+    span {
+        @media (min-width: @sm) {
+            display: block;
+        }
+    }
+
     span:first-of-type {
         font-family: 'Oswald';
         font-size: 1.7rem;
         color: @econolight-dark-blue;
+
+        @media (min-width: @sm) {
+            font-size: 1.3rem;
+        }
+
+        @media (min-width: @xl) {
+            font-size: 1.5rem;
+        }
     }
 
     span:last-of-type {
@@ -19,23 +75,46 @@
         font-size: 2rem;
         color: @econolight-orange;
         font-weight: 900;
+
+        @media (min-width: @sm) {
+            font-size: 1.5rem;
+        }
+
+        @media (min-width: @xl) {
+            font-size: 1.8rem;
+        }
     }
 }
 
-.product-ad__container {
+.product-ad__inner-container {
     display: flex;
+
+    @media (min-width: @sm) {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .product-ad__image-container {
-    width: 50%;
+    max-width: 165px;
+    @media (max-width: @sm) {
+        width: 50%;
+    }
+
+    @media (min-width: @xl) {
+        max-width: 315px;
+    }
 }
 
 .product-ad__text-container {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    @media (max-width: @sm) {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .product-ad__text {
@@ -44,6 +123,11 @@
     color: #000000;
     letter-spacing: 0;
     line-height: 23.04px;
+
+    @media (min-width: @xl) {
+        font-size: 2.2rem;
+        margin-bottom: .75em;
+    }
 }
 
 .product-ad__link-text {
@@ -52,4 +136,8 @@
     color: #004C97;
     letter-spacing: 0;
     line-height: 23.04px;
+
+    @media (min-width: @xl) {
+        font-size: 2.9rem;
+    }
 }

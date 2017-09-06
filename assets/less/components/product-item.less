@@ -12,6 +12,10 @@
 
     flex: 1;
     display: flex;
+
+    &:hover {
+        height: calc(~"100% + 25px");
+    }
 }
 
 .product-deal {
@@ -23,6 +27,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    position: relative;
 }
 
 .product-deal__content-container {
@@ -108,6 +113,10 @@
     @media (min-width: @lg) {
         padding: 8px 22px;
     }
+
+    .product-item:hover & {
+        visibility: hidden;
+    }
 }
 
 .product-item__savings-amount {
@@ -150,4 +159,15 @@
     display: inline-block;
     background-color: @econolight-light-gray;
     padding: .2em .435em;
+}
+
+.product-item__add-to-cart-container {
+    display: none;
+
+    .product-item:hover & {
+        display: block;
+        position: absolute;
+        bottom: 15px;
+        width: calc(~'100% - 48px');
+    }
 }

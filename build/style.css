@@ -1872,6 +1872,7 @@ table {
 }
 .button:hover {
   background-color: #0072ce;
+  cursor: pointer;
 }
 .button--white {
   color: #004c97;
@@ -1884,6 +1885,7 @@ table {
 .button--full-width {
   display: block;
   text-align: center;
+  width: 100%;
 }
 @media (min-width: 1024px) {
   .two-link-ad {
@@ -2244,6 +2246,10 @@ table {
   display: -ms-flexbox;
   display: flex;
 }
+.product-item:hover {
+  height: -moz-calc(100% + 25px);
+  height: calc(100% + 25px);
+}
 .product-deal {
   padding: 0;
 }
@@ -2262,6 +2268,7 @@ table {
   -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
+  position: relative;
 }
 .product-deal__content-container {
   padding: 10px 20px 20px;
@@ -2363,6 +2370,9 @@ table {
     padding: 8px 22px;
   }
 }
+.product-item:hover .product-item__savings {
+  visibility: hidden;
+}
 .product-item__savings-amount {
   font-family: Oswald-Regular;
   font-size: 1.7rem;
@@ -2398,6 +2408,16 @@ table {
   display: inline-block;
   background-color: #e2e2e3;
   padding: .2em .435em;
+}
+.product-item__add-to-cart-container {
+  display: none;
+}
+.product-item:hover .product-item__add-to-cart-container {
+  display: block;
+  position: absolute;
+  bottom: 15px;
+  width: -moz-calc(100% - 48px);
+  width: calc(100% - 48px);
 }
 .banner {
   background-color: #0072ce;

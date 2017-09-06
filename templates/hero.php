@@ -2,13 +2,13 @@
     <article class="hero" style="background-image: url('/assets/images/hero.jpg')">
         <div class="hero__text-container">
             <h1 class="highlighted-text__title-container--two-lines">
-                <span class="highlighted-text__title highlighted-text">HIGH EFFICIENCY</span>
+                <span class="highlighted-text__title highlighted-text highlighted-text--orange">HIGH EFFICIENCY</span>
                 <br />
-                <span class="highlighted-text__title highlighted-text highlighted-text--align-right">HIGH BAY LIGHTING.</span>
+                <span class="highlighted-text__title highlighted-text highlighted-text--align-right highlighted-text--orange">HIGH BAY LIGHTING.</span>
             </h1>
             <div class="text--center">
                 <h2 class="hero__subtitle">
-                    <span class="highlighted-text__sub-title highlighted-text">NOT SO HIGH PRICES.</span>
+                    <span class="highlighted-text__sub-title highlighted-text highlighted-text--white">NOT SO HIGH PRICES.</span>
                 </h2>
             </div>
         </div>

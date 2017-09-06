@@ -1,10 +1,23 @@
+.two-link-ad {
+    @media (min-width: @lg) {
+        padding: 50px 0 50px 80px;
+    }
+}
+
 .two-link-ad__title {
     font-family: Oswald-Regular;
-    font-size: 24px;
-    color: #000000;
+    font-size: 2.4rem;
     letter-spacing: 0;
     line-height: 1.167;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
+
+    @media (min-width: @md) {
+        font-size: 3rem;
+    }
+
+    @media (min-width: @lg) {
+        font-size: 5rem;
+    }
 }
 
 .two-link-ad__links-container {
@@ -16,14 +29,12 @@
     color: @econolight-dark-blue;
     text-decoration: none;
     font-family: Oswald-Regular;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #004C97;
     letter-spacing: .061em;
     line-height: 1.167;
 
-    &:not(:last-of-type) {
-        margin-bottom: 35px;
-    }
+    margin-bottom: 30px;
 
     &:hover {
         color: @econolight-light-blue;

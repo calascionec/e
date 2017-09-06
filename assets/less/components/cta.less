@@ -2,9 +2,7 @@
     background-size: cover;
     background-position: center;
     display: flex;
-
-    flex-direction: column;
-    align-items: flex-start;
+    flex: 1;
 }
 
 .cta-ad--product {
@@ -13,13 +11,33 @@
 
 .cta-ad__link {
     text-decoration: none;
-    color: @white;
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.cta-ad__highlighted-title {
+    display: inline-block;
+    font-size: 2.3rem;
+
+    @media (min-width: @lg) {
+        font-size: 39px;
+    }
+}
+
+.cta-ad__highlighted-title--bottom {
+    margin-left: 10px;
+
+    @media (min-width: @lg) {
+        margin-left: 50px;
+    }
 }
 
 .cta-ad__link-small {
     position: relative;
     padding-bottom: 100%;
     width: 100%;
+    color: @white;
 
     &:hover {
 
@@ -28,6 +46,14 @@
 
 .cta-ad__link-product {
     padding: 25px 10px 0;
+}
+
+.cta-ad__content-container {
+    max-width: 190px;
+
+    @media (min-width: @lg) {
+        max-width: 310px;
+    }
 }
 
 .cta-ad__title-small {
@@ -48,7 +74,9 @@
 }
 
 .cta-ad__copy-container {
-    margin-bottom: 25px;
+    @media (max-width: (@md - 1)) {
+        margin-bottom: 25px;
+    }
 }
 
 .cta-ad__product-container {
@@ -56,8 +84,13 @@
 }
 
 .cta-ad__copy {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     margin-bottom: 1em;
+    color: @black;
+
+    @media (min-width: @lg) {
+        font-size: 2rem
+    }
 }
 
 .cta-ad__link-text {
@@ -70,6 +103,14 @@
     }
 }
 
-.cta-ad__content-container {
+.cta-ad__copy-container {
     padding: 20px 10px 25px;
+
+    @media (min-width: @md) {
+        padding-bottom: 20px 0 25px;
+    }
+
+    @media (min-width: @lg) {
+        padding: 30px 0 30px 50px;
+    }
 }

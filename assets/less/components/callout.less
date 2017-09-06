@@ -12,6 +12,10 @@
         text-align: center;
         background-image: none !important;
     }
+
+    @media (min-width: @lg) {
+        padding: 35px;
+    }
 }
 
 .callout__header {
@@ -19,12 +23,21 @@
     font-family: @font-family__sans-serif;
     font-size: 1.3rem;
     font-weight: 700;
+
+    @media (min-width: @lg) {
+        font-size: 1.6rem;
+    }
 }
 
 .callout__text {
     color: @econolight-dark-blue;
     font-family: @font-family__serif;
     font-size: 2.4rem;
+    font-weight: 400;
+
+    @media (min-width: @lg) {
+        font-size: 3.3rem;
+    }
 }
 
 .callout__link {

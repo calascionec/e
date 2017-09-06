@@ -12,6 +12,7 @@
         <?php include('templates/homepage-grid-ctas.php'); ?>
         <?php include('templates/recently-viewed.php'); ?>
         <?php include('templates/footer-banner.php'); ?>
+        <?php include('templates/alternate-cta.php'); ?>
     </body>
 
 </html>

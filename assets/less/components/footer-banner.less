@@ -1,9 +1,54 @@
 .footer-banner {
-    padding: 50px 0;
+    padding: 50px @mobile-gutter;
     background-color: @econolight-dark-blue;
     color: @white;
+
+    @media (min-width: @lg) {
+        padding: 90px 100px;
+    }
+}
+
+.footer-banner__title {
+    font-size: 2.4rem;
+    font-family: Oswald-Regular;
+    margin-bottom: 1.25em;
+
+    @media (min-width: @md) {
+        font-size: 2.8rem;
+        margin-bottom: 1.07em;
+    }
+
+    @media (min-width: @lg) {
+        font-size: 5rem;
+        margin-bottom: .6em;
+    }
 }
 
 .footer-banner__copy-container {
     margin-bottom: 60px;
+
+    @media (min-width: @lg) {
+        font-size: 2rem;
+    }
+}
+
+.footer-banner__callout-container {
+    @media (min-width: @md) {
+        display: flex;
+        margin-left: (-1 * @mobile-gutter);
+    }
+    @media (min-width: @lg) {
+        margin-left: (-1 * @gutter);
+    }
+    .callout {
+        margin-bottom: 20px;
+        @media (min-width: @md) {
+            margin-bottom: 0;
+            margin-left: @mobile-gutter;
+        }
+        @media (min-width: @lg) {
+            margin-bottom: 0;
+            margin-left: @gutter;
+        }
+    }
 }

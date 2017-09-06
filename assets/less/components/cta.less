@@ -5,10 +5,6 @@
     flex: 1;
 }
 
-.cta-ad--product {
-    background-image: radial-gradient(#0072CE 49%, #004C97 100%);
-}
-
 .cta-ad__link {
     text-decoration: none;
     display: flex;
@@ -44,10 +40,6 @@
     }
 }
 
-.cta-ad__link-product {
-    padding: 25px 10px 0;
-}
-
 .cta-ad__content-container {
     max-width: 190px;
 
@@ -67,22 +59,6 @@
     text-transform: uppercase;
 }
 
-.cta-ad__title-large {
-    font-size: 2.4rem;
-    font-family: @font-family__serif;
-    margin-bottom: 1em;
-}
-
-.cta-ad__copy-container {
-    @media (max-width: (@md - 1)) {
-        margin-bottom: 25px;
-    }
-}
-
-.cta-ad__product-container {
-    display: flex;
-}
-
 .cta-ad__copy {
     font-size: 1.3rem;
     margin-bottom: 1em;
@@ -93,24 +69,89 @@
     }
 }
 
+.cta-ad__copy--white {
+    color: @white;
+}
+
+.cta-ad__copy--xtra-bottom-margin {
+    margin-bottom: 30px;
+
+    @media (min-width: @lg) {
+        margin-bottom: 20px;
+    }
+}
+
 .cta-ad__link-text {
     font-size: 1.8rem;
     text-transform: uppercase;
     font-family: @font-family__serif;
+    font-weight: 400;
 
     &:hover {
         text-decoration: underline;
     }
+
+    @media (min-width: @lg) {
+        font-size: 2rem;
+    }
 }
 
 .cta-ad__copy-container {
-    padding: 20px 10px 25px;
+    padding-left: 10px;
+    padding-top: 20px;
 
     @media (min-width: @md) {
-        padding-bottom: 20px 0 25px;
+        padding-top: 20px;
     }
 
     @media (min-width: @lg) {
-        padding: 30px 0 30px 50px;
+        padding-left: 50px;
+        padding-top: 30px;
     }
+}
+
+.cta-product {
+    background-image: radial-gradient(#0072CE 49%, #004C97 100%);
+}
+
+.cta-product__link {
+    padding: 25px 10px 0;
+    flex-direction: column-reverse;
+    color: @white;
+
+    @media (min-width: @md) {
+        flex-direction: row;
+    }
+    @media (min-width: @md) {
+        padding: 35px 35px 0;
+    }
+}
+
+.cta-product__title {
+    font-size: 2.4rem;
+    font-family: @font-family__serif;
+    margin-bottom: .583em;
+    font-weight: 400;
+
+    @media (min-width: @md) {
+        font-size: 3rem;
+    }
+
+    @media (min-width: @lg) {
+        font-size: 5rem;
+        margin-bottom: .1em;
+    }
+}
+
+.cta-product__copy-container {
+    margin-bottom: 30px;
+
+    @media (min-width: @md) {
+        margin-bottom: 0;
+        padding-left: 40px;
+    }
+}
+
+.cta-product__image-container {
+    display: flex;
 }

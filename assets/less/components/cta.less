@@ -3,6 +3,11 @@
     background-position: center;
     display: flex;
     flex: 1;
+    align-items: center;
+}
+
+.cta-ad--orange {
+    padding: 35px 0;
 }
 
 .cta-ad__link {
@@ -16,13 +21,17 @@
     display: inline-block;
     font-size: 2.3rem;
 
-    @media (min-width: @lg) {
+    @media (min-width: @xl) {
         font-size: 39px;
     }
 }
 
 .cta-ad__highlighted-title--bottom {
     margin-left: 10px;
+
+    @media (min-width: @md) {
+        margin-left: 30px;
+    }
 
     @media (min-width: @lg) {
         margin-left: 50px;
@@ -43,6 +52,10 @@
 .cta-ad__content-container {
     max-width: 190px;
 
+    @media (min-width: @md) {
+        max-width: 215px;
+    }
+
     @media (min-width: @lg) {
         max-width: 310px;
     }
@@ -57,6 +70,15 @@
     line-height: 1;
     padding: 0 .5em;
     text-transform: uppercase;
+
+    @media (min-width: @md) {
+        font-size: 2.1rem;
+        padding: 0 1.25em;
+    }
+
+    @media (min-width: @xl) {
+        font-size: 2.8rem;
+    }
 }
 
 .cta-ad__copy {
@@ -64,7 +86,7 @@
     margin-bottom: 1em;
     color: @black;
 
-    @media (min-width: @lg) {
+    @media (min-width: @xl) {
         font-size: 2rem
     }
 }
@@ -91,7 +113,7 @@
         text-decoration: underline;
     }
 
-    @media (min-width: @lg) {
+    @media (min-width: @xl) {
         font-size: 2rem;
     }
 }
@@ -102,6 +124,7 @@
 
     @media (min-width: @md) {
         padding-top: 20px;
+        padding-left: 30px;
     }
 
     @media (min-width: @lg) {
@@ -121,6 +144,7 @@
 
     @media (min-width: @md) {
         flex-direction: row;
+        padding: 30px 30px 0;
     }
     @media (min-width: @md) {
         padding: 35px 35px 0;
@@ -137,7 +161,7 @@
         font-size: 3rem;
     }
 
-    @media (min-width: @lg) {
+    @media (min-width: @xl) {
         font-size: 5rem;
         margin-bottom: .1em;
     }

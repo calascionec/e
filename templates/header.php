@@ -1,4 +1,30 @@
 <header class="header">
+    <div class="header-top">
+        <div class="header-top__content">
+            Call 888.243.9445 Monday-Friday 6 AM-7 PM CT
+        </div>
+        <div class="header-top__search-form">
+
+        </div>
+        <div class="header-top__link-container">
+            <a class="header-top__link header-top__link--dark-blue" href="#">
+                <i class="fa fa-check" aria-hidden="true"></i>
+                Order Status
+            </a>
+        </div>
+        <div class="header-top__link-container">
+            <a class="header-top__link header-top__link--light-blue" href="#">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                My Account
+            </a>
+        </div>
+        <div class="header-top__link-container">
+            <a class="header-top__link header-top__link--orange" href="#">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                Cart (12)
+            </a>
+        </div>
+    </div>
     <div class="grid grid--container">
         <div class="header__container">
             <div class="header__logo-container">

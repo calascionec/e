@@ -16,7 +16,7 @@
             </div>
         </div>
         <div class="col col--xs-12 col--md-6 col--xs-flex">
-            <div class="cta-ad" style="background-image: url('/assets/images/install-like-a-boss.jpg')">
+            <div class="cta-ad cta-ad--orange" style="background-image: url('/assets/images/install-like-a-boss.jpg')">
                 <a class="cta-ad__link" href="#">
                     <div class="cta-ad__content-container">
                         <h3 class="highlighted-text__title-container--two-lines">

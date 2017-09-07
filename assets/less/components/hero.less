@@ -18,12 +18,12 @@
 
 .hero__text-container {
     max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-    @media (min-width: @sm) {
+    @media (min-width: @md) {
         max-width: 465px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
 
     @media (min-width: @xl) {

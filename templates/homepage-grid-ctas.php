@@ -19,7 +19,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col col--xs-6 col--lg-4">
+                    <div class="col col--xs-6 col--sm-4">
                         <div class="cta-ad" style="background-image: url('/assets/images/recessed-lighting.jpg')">
                             <a class="cta-ad__link-small cta-ad__link" href="#">
                                 <div class="centering-div">
@@ -28,7 +28,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col col--xs-6 col--lg-4">
+                    <div class="col col--xs-6 col--sm-4">
                         <div class="cta-ad" style="background-image: url('/assets/images/recessed-lighting.jpg')">
                             <a class="cta-ad__link-small cta-ad__link" href="#">
                                 <div class="centering-div">
@@ -37,7 +37,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col col--xs-6 col--lg-4">
+                    <div class="col col--xs-6 col--sm-4">
                         <div class="cta-ad" style="background-image: url('/assets/images/recessed-lighting.jpg')">
                             <a class="cta-ad__link-small cta-ad__link" href="#">
                                 <div class="centering-div">
@@ -46,7 +46,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col col--xs-6 col--lg-4">
+                    <div class="col col--xs-6 col--sm-4">
                         <div class="cta-ad" style="background-image: url('/assets/images/recessed-lighting.jpg')">
                             <a class="cta-ad__link-small cta-ad__link" href="#">
                                 <div class="centering-div">
@@ -55,7 +55,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col col--xs-6 col--lg-4">
+                    <div class="col col--xs-6 col--sm-4">
                         <div class="cta-ad" style="background-image: url('assets/images/recessed-lighting.jpg')">
                             <a class="cta-ad__link-small cta-ad__link" href="#">
                                 <div class="centering-div">
@@ -64,7 +64,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col col--xs-6 col--lg-4">
+                    <div class="col col--xs-6 col--sm-4">
                         <div class="cta-ad" style="background-image: url('/assets/images/recessed-lighting.jpg')">
                             <a class="cta-ad__link-small cta-ad__link" href="#">
                                 <div class="centering-div">
@@ -76,12 +76,12 @@
                 </div>
             </div>
             <div class="col col--xs-12 col--lg-3 col--lg-flex">
-                <div class="cta-ad" style="background-image: url('/assets/images/hallway.jpg')">
+                <div class="cta-ad cta-ad--orange" style="background-image: url('/assets/images/hallway.jpg')">
                     <div class="cta-ad__content-container">
                         <h3 class="highlighted-text__title-container--two-lines">
-                            <span class="highlighted-text highlighted-text--orange">ACCENT ON</span>
+                            <span class="cta-ad__highlighted-title highlighted-text highlighted-text--orange">ACCENT ON</span>
                             <br />
-                            <span class="highlighted-text highlighted-text--orange">EFFICIENCY</span>
+                            <span class="cta-ad__highlighted-title cta-ad__highlighted-title--bottom highlighted-text highlighted-text--orange">EFFICIENCY</span>
                         </h3>
                         <div class="cta-ad__copy-container">
                             <p class="cta-ad__copy">Crisp white LED makes every kitchen more appetizing</p>

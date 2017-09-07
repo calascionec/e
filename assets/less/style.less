@@ -75,6 +75,7 @@ a {
 .slider-container {
     padding: 0 50px;
     position: relative;
+    display: flex;
 }
 
 .slider-arrow {
@@ -101,4 +102,44 @@ a {
 
 .no-margin-bottom {
     margin-bottom: 0;
+}
+
+.grid--xs-add-gutters {
+    padding: 0 @mobile-gutter;
+
+    @media (min-width: @lg) {
+      padding: 0 @gutter;
+    }
+}
+
+.grid--sm-add-gutters {
+    @media (min-width: @sm) {
+        padding: 0 @mobile-gutter;
+    }
+
+    @media (min-width: @lg) {
+      padding: 0 @gutter;
+    }
+}
+
+.grid--md-add-gutters {
+    @media (min-width: @md) {
+        padding: 0 @mobile-gutter;
+    }
+
+    @media (min-width: @lg) {
+      padding: 0 @gutter;
+    }
+}
+
+.grid--lg-add-gutters {
+    @media (min-width: @lg) {
+      padding: 0 @gutter;
+    }
+}
+
+.grid--xl-add-gutters {
+    @media (min-width: @xl) {
+      padding: 0 @gutter;
+    }
 }

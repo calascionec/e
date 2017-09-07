@@ -1,4 +1,4 @@
-<div class="grid grid--container grid--xs-no-gutters grid--sm-add-gutters">
+<div class="grid grid--container-lg grid--xs-no-gutters grid--sm-add-gutters">
     <div class="banner text--center">
         <a class="banner__link" href="#">
             <div class="banner__title">

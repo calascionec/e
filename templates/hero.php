@@ -1,4 +1,4 @@
-<div class="grid grid--container grid--xs-no-gutters grid--sm-add-gutters">
+<div class="grid grid--container-lg grid--xs-no-gutters grid--sm-add-gutters">
     <article class="hero" style="background-image: url('/assets/images/hero.jpg')">
         <div class="hero__text-container">
             <h1 class="highlighted-text__title-container--two-lines">
@@ -22,29 +22,14 @@
                         <img class="img-responsive" src="/assets/images/summersale.png" alt="3 lights">
                     </div>
                     <div class="product-ad__text-container">
-                        <p class="product-ad__text">All Hight Bay lighting</p>
+                        <p class="product-ad__text">All High Bay Lighting</p>
                         <p class="product-ad__link-text">UP TO 30% OFF ></p>
                     </div>
                 </div>
             </div>
         </div>
-    </article>
-</div>
-
-
-<div class="grid grid--container">
-    <div class="product-ad product-ad__mobile">
-        <h2 class="product-ad__title">
-            <span>SUMMER</span><span>SALE</span>
-        </h2>
-        <div class="product-ad__inner-container">
-            <div class="product-ad__image-container">
-                <img class="img-responsive" src="/assets/images/summersale.png" alt="3 lights">
-            </div>
-            <div class="product-ad__text-container">
-                <p class="product-ad__text">All Hight Bay lighting</p>
-                <p class="product-ad__link-text">UP TO 30% OFF ></p>
-            </div>
+        <div class="text--center hide--sm">
+            <a class="button button--white" href="#">Hight Bay Lighting</a>
         </div>
-    </div>
+    </article>
 </div>

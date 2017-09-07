@@ -6,9 +6,15 @@
     padding: 0 @gutter;
   }
 
+  .variant(container-lg; {
+    margin: 0 auto;
+    max-width: (@container-max-width-lg + (@gutter * 2));
+    width: 100%;
+  });
+
   .variant(container; {
     margin: 0 auto;
-    max-width: (@container-max-width + (@gutter * 2));
+    max-width: (@container-max-width-sm + (@gutter * 2));
     width: 100%;
   });
 

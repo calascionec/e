@@ -25,7 +25,7 @@
             </a>
         </div>
     </div>
-    <div class="grid grid--container">
+    <div class="grid grid--container-lg">
         <div class="header__container">
             <div class="header__logo-container">
                 <a href="/">

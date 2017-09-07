@@ -60,7 +60,7 @@
 
 .make-showing-helpers(@breakpoint) {
     .show--@{breakpoint} {
-        display: block;
+        display: inline-block;
     }
 }
 
@@ -76,24 +76,11 @@
     }
 }
 
-.make-add-gutter-helpers(@breakpoint) {
-    .grid--@{breakpoint}-add-gutters {
-        padding: 0 (@gutter / 2);
-    }
-    .row--@{breakpoint}-add-gutters {
-        margin: (-1 * @row-spacing) (-1 * (@gutter / 2)) @row-spacing (-1 * (@gutter / 2));;
-    }
-    .col--@{breakpoint}-add-gutters {
-        padding: @row-spacing (@gutter / 2) 0 (@gutter / 2);
-    }
-}
-
 .make-helpers(@breakpoint) {
+  .make-no-gutter-helpers(@breakpoint);
   .make-row-helpers(@breakpoint);
   .make-col-helpers(@breakpoint);
   .make-text-helpers(@breakpoint);
-  .make-no-gutter-helpers(@breakpoint);
-  .make-add-gutter-helpers(@breakpoint);
   .make-showing-helpers(@breakpoint);
   .make-hiding-helpers(@breakpoint);
 }

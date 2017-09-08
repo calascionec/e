@@ -72,10 +72,22 @@ a {
     padding-bottom: 0;
 }
 
+.overflow-container {
+
+    @media (min-width: @md) and (max-width: @lg) {
+        overflow-x: scroll;
+        margin-right: (-1 * @mobile-gutter);
+    }
+}
+
 .slider-container {
     padding: 0 50px;
     position: relative;
     display: flex;
+
+    @media (min-width: @md) and (max-width: (@lg - 1)) {
+        padding: 0;
+    }
 }
 
 .slider-arrow {

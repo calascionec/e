@@ -14,19 +14,19 @@
         <div class="header-top__link-container">
             <a class="header-top__link header-top__link--dark-blue" href="#">
                 <i class="fa fa-check" aria-hidden="true"></i>
-                Order Status
+                <span class="header-top__link-text">Order Status</span>
             </a>
         </div>
         <div class="header-top__link-container">
             <a class="header-top__link header-top__link--light-blue" href="#">
                 <i class="fa fa-user" aria-hidden="true"></i>
-                My Account
+                <span class="header-top__link-text">My Account</span>
             </a>
         </div>
         <div class="header-top__link-container">
             <a class="header-top__link header-top__link--orange" href="#">
                 <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                Cart (12)
+                <span class="header-top__link-text">Cart (12)</span>
             </a>
         </div>
     </div>
@@ -41,6 +41,20 @@
                 <ul class="main-navigation">
                     <li class="main-navigation__item">
                         <a class="main-navigation__link" href="#">Outdoor Lighting</a>
+                        <ul class="main-sub-navigation">
+                            <li class="main-sub-navigation__item">
+                                <a class="main-sub-navigation__link" href="#">Accent</a>
+                            </li>
+                            <li class="main-sub-navigation__item">
+                                <a class="main-sub-navigation__link" href="#">Canopy</a>
+                            </li>
+                            <li class="main-sub-navigation__item">
+                                <a class="main-sub-navigation__link" href="#">Dusk to Dawn</a>
+                            </li>
+                            <li class="main-sub-navigation__item">
+                                <a class="main-sub-navigation__link" href="#">Flexible Cable Strip</a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="main-navigation__item">
                         <a class="main-navigation__link" href="#">Indoor Lighting</a>

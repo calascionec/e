@@ -173,7 +173,16 @@
     .product-item:hover & {
         display: block;
         position: absolute;
-        bottom: 15px;
+        bottom: 0;
         width: calc(~'100% - 48px');
+    }
+}
+
+.slider-container .product-item {
+    margin: 0 5px;
+
+    @media (min-width: @md) and (max-width: (@lg - 1)) {
+        width: 200px;
+        max-width: 200px;
     }
 }

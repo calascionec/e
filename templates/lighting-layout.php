@@ -1,6 +1,6 @@
 <div class="grid grid--container">
     <div class="row">
-        <div class="col col--xs-12 col--md-6">
+        <div class="col col--xs-24 col--md-12">
             <div class="two-link-ad">
                 <h2 class="two-link-ad__title">How much light do you need? Create a custom plan with our simple free tools.</h2>
                 <div class="two-link-ad__links-container">
@@ -15,7 +15,7 @@
                 </div>
             </div>
         </div>
-        <div class="col col--xs-12 col--md-6 col--xs-flex">
+        <div class="col col--xs-24 col--md-12 col--xs-flex">
             <div class="cta-ad cta-ad--orange" style="background-image: url('/assets/images/install-like-a-boss.jpg')">
                 <a class="cta-ad__link" href="#">
                     <div class="cta-ad__content-container">

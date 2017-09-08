@@ -5,7 +5,7 @@
             <a class="button" href="#">VIEW ALL DEALS</a>
         </div>
         <div class="row">
-            <div class="col col--xs-12 col--xs-flex col--sm-6 col--md-3">
+            <div class="col col--xs-24 col--xs-flex col--sm-12 col--md-6">
                 <article class="product-item product-deal">
                     <a class="product-item__link" href="#">
                         <div class="product-deal__content-container">
@@ -28,7 +28,7 @@
                 </article>
             </div>
 
-            <div class="col col--xs-12 col--xs-flex col--sm-6 col--md-3">
+            <div class="col col--xs-24 col--xs-flex col--sm-12 col--md-6">
                 <article class="product-item product-deal">
                     <a class="product-item__link" href="#">
                         <div class="product-deal__content-container">
@@ -51,7 +51,7 @@
                 </article>
             </div>
 
-            <div class="col col--xs-12 col--xs-flex col--sm-6 col--md-3">
+            <div class="col col--xs-24 col--xs-flex col--sm-12 col--md-6">
                 <article class="product-item product-deal">
                     <a class="product-item__link" href="#">
                         <div class="product-deal__content-container">
@@ -74,7 +74,7 @@
                 </article>
             </div>
 
-            <div class="col col--xs-12 col--xs-flex col--sm-6 col--md-3">
+            <div class="col col--xs-24 col--xs-flex col--sm-12 col--md-6">
                 <article class="product-item product-deal">
                     <a class="product-item__link" href="#">
                         <div class="product-deal__content-container">

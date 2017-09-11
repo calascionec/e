@@ -1,10 +1,3 @@
-.deals__header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
 .product-item {
     background: #FFFFFF;
     box-shadow: 1px 1px 4px 0 #B2B3B3;
@@ -13,14 +6,14 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-
-    &:hover {
-        height: calc(~"100% + 25px");
-    }
 }
 
 .product-deal {
     padding: 0;
+
+    &:hover {
+        height: calc(~"100% + 25px");
+    }
 }
 
 .product-item__link {
@@ -48,14 +41,30 @@
     text-align: center;
 }
 
+.product-deal__image {
+    width: 166px;
+
+    @media (min-width: @md) {
+        width: 140px;
+    }
+}
+
 .product-item__image {
     margin-left: auto;
     margin-right: auto;
+    width: 110px;
+
+    @media (min-width: @md) {
+        width: 140px;
+    }
 }
 
 .product-item__price-wrapper {
+    display: flex;
+    flex-direction: column;
+
     @media (min-width: @md) {
-        display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
     }
@@ -66,7 +75,7 @@
     font-size: 17px;
     color: #000000;
     letter-spacing: 0.012em;
-    margin-bottom: 1.3em;
+    margin-bottom: .8em;
 
     @media (min-width: @md) {
         margin-bottom: .5em;
@@ -74,6 +83,10 @@
 
     @media (min-width: @lg) {
         font-size: 2.2rem;
+    }
+
+    .product-item:hover & {
+        color: @econolight-dark-blue;
     }
 }
 
@@ -95,7 +108,7 @@
     letter-spacing: 0.022em;
 
     @media (min-width: @md) {
-        margin-right: 1em;
+        margin-right: 5px;
     }
 
     @media (min-width: @lg) {
@@ -139,22 +152,43 @@
 .product-item__rating {
     color: @econolight-light-blue;
     margin: 1.25em 0;
-}
 
-.product-item-description-list {
-    margin-bottom: 30px;
+    @media (min-width: @md) {
+        margin-left: .8em 0;
+    }
 }
 
 .product-item-description__list-item {
     margin-bottom: .5em;
     font-size: 1.2rem;
     color: @black;
+
+    @media (min-width: @md) {
+        margin-bottom: .25em;
+    }
+}
+
+.customer-links {
+    margin-top: 5px;
+
+    @media (min-width: @md) {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    @media (min-width: @lg) {
+        margin-top: 30px;
+    }
 }
 
 .customer-links__list-item {
     font-size: 1.3rem;
     font-weight: 700;
     margin-bottom: 1em;
+
+    @media (min-width: @md) {
+        margin-bottom: .5em;
+    }
 }
 
 .customer-links__link {

@@ -12,7 +12,7 @@
                         <div class="product-item__title">
                             LED Dusk to Dawn E-DD1l Series 500K
                         </div>
-                        <div class="product-item__price-container">
+                        <div class="product-item__price-wrapper">
                             <span class="product-item__price">$139.99</span>
                             <span class="product-item__was">WAS $179.99</span>
                         </div>
@@ -54,7 +54,7 @@
                         <div class="product-item__title">
                             LED Dusk to Dawn E-DD1l Series 500K
                         </div>
-                        <div class="product-item__price-container">
+                        <div class="product-item__price-wrapper">
                             <span class="product-item__price">$139.99</span>
                             <span class="product-item__was">WAS $179.99</span>
                         </div>
@@ -96,7 +96,7 @@
                         <div class="product-item__title">
                             LED Dusk to Dawn E-DD1l Series 500K
                         </div>
-                        <div class="product-item__price-container">
+                        <div class="product-item__price-wrapper">
                             <span class="product-item__price">$139.99</span>
                             <span class="product-item__was">WAS $179.99</span>
                         </div>
@@ -138,7 +138,7 @@
                         <div class="product-item__title">
                             LED Dusk to Dawn E-DD1l Series 500K
                         </div>
-                        <div class="product-item__price-container">
+                        <div class="product-item__price-wrapper">
                             <span class="product-item__price">$139.99</span>
                             <span class="product-item__was">WAS $179.99</span>
                         </div>
@@ -180,7 +180,7 @@
                         <div class="product-item__title">
                             LED Dusk to Dawn E-DD1l Series 500K
                         </div>
-                        <div class="product-item__price-container">
+                        <div class="product-item__price-wrapper">
                             <span class="product-item__price">$139.99</span>
                             <span class="product-item__was">WAS $179.99</span>
                         </div>

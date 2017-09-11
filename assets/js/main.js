@@ -25,7 +25,7 @@ $('document').ready(function(){
             var carousel = $(this),
             reinit = debounce(function() {
 
-                if (window.innerWidth > 768 && window.innerWidth < 1024) {
+                if (window.innerWidth > 767 && window.innerWidth < 1024) {
                     return;
                 }
                 carousel.removeAttr('style');
@@ -40,7 +40,7 @@ $('document').ready(function(){
     }
 
     window.addEventListener('resize', function() {
-        if (window.innerWidth > 768 && window.innerWidth < 1024) {
+        if (window.innerWidth > 767 && window.innerWidth < 1024) {
             var numberOfProducts = $('.slider-container .product-item:not(.slick-cloned)').length,
                 productWidth = 200;
                 lengthOfContainer = numberOfProducts * (productWidth + 10);

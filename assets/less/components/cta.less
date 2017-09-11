@@ -4,6 +4,7 @@
     display: flex;
     flex: 1;
     align-items: center;
+    position: relative;
 }
 
 .cta-ad--orange {
@@ -20,6 +21,7 @@
 .cta-ad__highlighted-title {
     display: inline-block;
     font-size: 2.3rem;
+    padding: .215em .43em;
 
     @media (min-width: @xl) {
         font-size: 39px;
@@ -46,6 +48,14 @@
 
     &:hover {
 
+    }
+}
+
+.cta-ad--small__image {
+    position: absolute;
+
+    .cta-ad:hover & {
+        opacity: .7;
     }
 }
 
@@ -110,7 +120,7 @@
     font-weight: 400;
 
     &:hover {
-        text-decoration: underline;
+        color: @econolight-orange;
     }
 
     @media (min-width: @xl) {

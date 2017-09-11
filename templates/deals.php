@@ -10,7 +10,7 @@
                     <a class="product-item__link" href="#">
                         <div class="product-deal__content-container">
                             <div class="product-item__image-container">
-                                <img class="img-responsive" src="/assets/images/product.png" alt="">
+                                <img class="img-responsive product-deal__image" src="/assets/images/product.png" alt="">
                             </div>
                             <h3 class="product-item__title">LED Dusk to Dawn E-DD1L Series 500K</h3>
                             <div class="product-item__price-wrapper">
@@ -33,7 +33,7 @@
                     <a class="product-item__link" href="#">
                         <div class="product-deal__content-container">
                             <div class="product-item__image-container">
-                                <img class="img-responsive" src="/assets/images/product.png" alt="">
+                                <img class="img-responsive product-deal__image" src="/assets/images/product.png" alt="">
                             </div>
                             <h3 class="product-item__title">LED Dusk to Dawn E-DD1L Series 500K</h3>
                             <div class="product-item__price-wrapper">
@@ -56,7 +56,7 @@
                     <a class="product-item__link" href="#">
                         <div class="product-deal__content-container">
                             <div class="product-item__image-container">
-                                <img class="img-responsive" src="/assets/images/product.png" alt="">
+                                <img class="img-responsive product-deal__image" src="/assets/images/product.png" alt="">
                             </div>
                             <h3 class="product-item__title">LED Dusk to Dawn E-DD1L Series 500K</h3>
                             <div class="product-item__price-wrapper">
@@ -79,7 +79,7 @@
                     <a class="product-item__link" href="#">
                         <div class="product-deal__content-container">
                             <div class="product-item__image-container">
-                                <img class="img-responsive" src="/assets/images/product.png" alt="">
+                                <img class="img-responsive product-deal__image" src="/assets/images/product.png" alt="">
                             </div>
                             <h3 class="product-item__title">LED Dusk to Dawn E-DD1L Series 500K</h3>
                             <div class="product-item__price-wrapper">

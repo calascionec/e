@@ -70,8 +70,16 @@
                     </li>
                 </ul>
             </nav>
+            <div class="tablet-search-form-container">
+                <form class="tablet-search-form" action="index.html" method="post">
+                    <input class="tablet-search-form__input" type="text" name="" value="" placeholder="I'm looking for...">
+                    <button class="tablet-search-form__submit" type="submit" name="button">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                </form>
+            </div>
             <div class="mobile-links-container">
-                <div class="header__mobile-link-container">
+                <div class="header__mobile-link-container mobile-menu-trigger">
                     <a class="header__mobile-link" href="#">
                         <i class="header__mobile-link-icon fa fa-bars" aria-hidden="true"></i>
                         <span>Menu</span>

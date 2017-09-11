@@ -1,7 +1,7 @@
 <section class="section">
     <div class="grid grid--container">
         <div class="row">
-            <div class="col col--xs-24 col--lg-18 no-padding-bottom">
+            <div class="col col--xs-24 col--lg-18">
                 <div class="row">
                     <div class="col col--xs-24">
                         <div class="cta-ad cta-product">
@@ -20,7 +20,8 @@
                         </div>
                     </div>
                     <div class="col col--xs-12 col--sm-8">
-                        <div class="cta-ad" style="background-image: url('/assets/images/recessed-lighting.jpg')">
+                        <div class="cta-ad cta-ad--small">
+                            <img class="img-responsive cta-ad--small__image" src="/assets/images/recessed-lighting.jpg" alt="">
                             <a class="cta-ad__link-small cta-ad__link" href="#">
                                 <div class="centering-div">
                                     <span class="cta-ad__title-small">Recessed</span>
@@ -29,7 +30,8 @@
                         </div>
                     </div>
                     <div class="col col--xs-12 col--sm-8">
-                        <div class="cta-ad" style="background-image: url('/assets/images/recessed-lighting.jpg')">
+                        <div class="cta-ad">
+                            <img class="img-responsive cta-ad--small__image" src="/assets/images/recessed-lighting.jpg" alt="">
                             <a class="cta-ad__link-small cta-ad__link" href="#">
                                 <div class="centering-div">
                                     <span class="cta-ad__title-small">Parking Garage</span>
@@ -38,7 +40,8 @@
                         </div>
                     </div>
                     <div class="col col--xs-12 col--sm-8">
-                        <div class="cta-ad" style="background-image: url('/assets/images/recessed-lighting.jpg')">
+                        <div class="cta-ad">
+                            <img class="img-responsive cta-ad--small__image" src="/assets/images/recessed-lighting.jpg" alt="">
                             <a class="cta-ad__link-small cta-ad__link" href="#">
                                 <div class="centering-div">
                                     <span class="cta-ad__title-small">Dusk to Dawn</span>
@@ -47,7 +50,8 @@
                         </div>
                     </div>
                     <div class="col col--xs-12 col--sm-8">
-                        <div class="cta-ad" style="background-image: url('/assets/images/recessed-lighting.jpg')">
+                        <div class="cta-ad">
+                            <img class="img-responsive cta-ad--small__image" src="/assets/images/recessed-lighting.jpg" alt="">
                             <a class="cta-ad__link-small cta-ad__link" href="#">
                                 <div class="centering-div">
                                     <span class="cta-ad__title-small">Track</span>
@@ -56,7 +60,8 @@
                         </div>
                     </div>
                     <div class="col col--xs-12 col--sm-8">
-                        <div class="cta-ad" style="background-image: url('assets/images/recessed-lighting.jpg')">
+                        <div class="cta-ad">
+                            <img class="img-responsive cta-ad--small__image" src="/assets/images/recessed-lighting.jpg" alt="">
                             <a class="cta-ad__link-small cta-ad__link" href="#">
                                 <div class="centering-div">
                                     <span class="cta-ad__title-small">Wall Pack</span>
@@ -65,7 +70,8 @@
                         </div>
                     </div>
                     <div class="col col--xs-12 col--sm-8">
-                        <div class="cta-ad" style="background-image: url('/assets/images/recessed-lighting.jpg')">
+                        <div class="cta-ad">
+                            <img class="img-responsive cta-ad--small__image" src="/assets/images/recessed-lighting.jpg" alt="">
                             <a class="cta-ad__link-small cta-ad__link" href="#">
                                 <div class="centering-div">
                                     <span class="cta-ad__title-small">Fluorescent</span>

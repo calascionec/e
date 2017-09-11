@@ -13,7 +13,7 @@
             </div>
         </div>
         <div class="product-ad__outer-container">
-            <div class="product-ad product-ad__desktop">
+            <a href="#" class="product-ad product-ad__desktop">
                 <h2 class="product-ad__title">
                     <span>SUMMER</span><span>SALE</span>
                 </h2>
@@ -26,7 +26,7 @@
                         <p class="product-ad__link-text">UP TO 30% OFF ></p>
                     </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="text--center hide--sm">
             <a class="button button--white" href="#">Hight Bay Lighting</a>

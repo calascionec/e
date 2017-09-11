@@ -1,11 +1,8 @@
 .highlighted-text {
     font-family: 'Prompt';
     font-weight: 700;
-    padding: .5em .5em .25em;
-    /* Needs prefixing */
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
-    line-height: 1;
     display: inline-block;
 }
 
@@ -16,8 +13,9 @@
 
 .highlighted-text__title {
     font-size: 2.4rem;
-    padding-left: .75em;
-    padding-right: .75em;
+    padding-left: .67em;
+    padding-right: .67em;
+    padding-top: .25em;
 
     @media (min-width: @md) {
         font-size: 3.5rem;
@@ -25,6 +23,7 @@
 
     @media (min-width: @xl) {
         font-size: 6.7rem;
+        padding: .1em .6em;
     }
 }
 
@@ -35,6 +34,8 @@
 
 .highlighted-text__sub-title {
     font-size: 1.8rem;
+    padding: .25em .5em;
+    margin-top: -5px;
 
     @media (min-width: @md) {
         font-size: 2.5rem;
@@ -42,6 +43,9 @@
 
     @media (min-width: @xl) {
         font-size: 4.9rem;
+        padding: .25em .5em;
+        margin-left: 2.06em;
+        margin-top: -9px;
     }
 }
 
@@ -51,6 +55,10 @@
 
     & .highlighted-text:last-of-type {
         margin-top: -5px;
+
+        @media (min-width: @xl) {
+            margin-top: -12px;
+        }
     }
 }
 

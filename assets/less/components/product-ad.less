@@ -9,13 +9,26 @@
     box-shadow: 0 0 2px 0 #B2B3B3;
     padding: 20px 10px;
     position: relative;
+    text-decoration: none;
 
     @media (min-width: @sm) {
         padding: 20px;
     }
 
-    @media (min-width: @md) {
+    @media (min-width: @lg) {
         padding: 40px;
+    }
+
+    &:hover {
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            border-top: 15px solid @econolight-orange;
+            width: 100%;
+            top: 100%;
+            left: 0;
+        }
     }
 }
 
@@ -37,9 +50,9 @@
     text-align: center;
     margin-bottom: 18px;
 
-    @media (min-width: @sm) {
+    @media (min-width: @md) {
         position: absolute;
-        top: 2px;
+        top: 5px;
         right: 2px;
         line-height: 1;
     }
@@ -57,13 +70,10 @@
     }
 
     span:first-of-type {
-        font-family: 'Oswald';
-        font-size: 1.7rem;
+        font-family: @font-family__serif;
         color: @econolight-dark-blue;
-
-        @media (min-width: @sm) {
-            font-size: 1.3rem;
-        }
+        font-weight: 400;
+        font-size: 1.3rem;
 
         @media (min-width: @xl) {
             font-size: 1.5rem;
@@ -71,7 +81,7 @@
     }
 
     span:last-of-type {
-        font-family: 'Prompt';
+        font-family: @font-family__sans-serif;
         font-size: 2rem;
         color: @econolight-orange;
         font-weight: 900;
@@ -103,6 +113,7 @@
 
     @media (min-width: @xl) {
         max-width: 315px;
+        margin-bottom: 5px;
     }
 }
 
@@ -139,5 +150,9 @@
 
     @media (min-width: @xl) {
         font-size: 2.9rem;
+    }
+
+    .product-ad:hover & {
+        color: @econolight-light-blue;
     }
 }

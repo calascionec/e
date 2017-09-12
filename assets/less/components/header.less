@@ -1,4 +1,4 @@
-.header {
+.page-header {
     @media (max-width: (@md - 1)) {
         border-bottom: 2px solid @econolight-orange;
     }
@@ -17,12 +17,12 @@
 }
 
 .header-top__link-container,
-.header-top__search-form-container {
+.minisearch {
     display: flex;
     position: relative;
 }
 
-.header-top__search-form-container {
+.minisearch-container {
     flex: 1;
     border-left: 2px solid @white;
     display: none;
@@ -32,26 +32,36 @@
     }
 }
 
-.header-search-form {
+.minisearch {
     display: flex;
     flex: 1;
 }
 
-.header-search-form__input,
-.tablet-search-form__input  {
+.minisearch__label {
+    display: none;
+}
+
+
+.minisearch__input-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+input.minisearch__input {
     border: none;
     font-size: 1.4rem;
     padding: 0 45px 0 20px;
     flex: 1;
     font-family: @font-family__sans-serif;
     letter-spacing: .07em;
+    height: auto;
 }
 
-.header-search-form__input {
+input.minisearch__input {
     background-color: @econolight-dark-blue;
     color: @white;
 
-    .header-search-form:hover & {
+    .minisearch:hover & {
         background-color: @econolight-light-blue;
     }
 
@@ -73,8 +83,7 @@
     }
 }
 
-.header-search-form__submit,
-.tablet-search-form__submit {
+.minisearch__submit {
     position: absolute;
     color: white;
     border-radius: 0;
@@ -91,6 +100,9 @@
     }
 }
 
+.minisearch__submit-text {
+    display: none;
+}
 
 .header-top__link {
     color: @white;
@@ -103,6 +115,7 @@
     @media (min-width: @lg) {
         font-size: 1.3rem;
         letter-spacing: .086em;
+        border-left: 2px solid @white;
     }
 
     i {
@@ -165,14 +178,18 @@
 .header__logo-link {
     display: flex;
     align-items: center;
-    max-width: 97px;
+    width: 97px;
 
     @media (min-width: @md) {
-        max-width: 120px;
+        width: 120px;
     }
 
     @media (min-width: @lg) {
         width: 212px
+    }
+
+    img {
+        width: 100%;
     }
 }
 
@@ -216,6 +233,7 @@
 
 .main-navigation-container {
     display: none;
+    color: @econolight-dark-blue;
 
     @media (min-width: @lg) {
         display: block;
@@ -227,6 +245,7 @@
 .main-navigation {
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 0;
 }
 
 .main-navigation__item {
@@ -237,6 +256,7 @@
     padding: 2em 0 2em .7em;
     text-transform: uppercase;
     position: relative;
+    margin-bottom: 0;
 }
 
 .main-navigation__link {

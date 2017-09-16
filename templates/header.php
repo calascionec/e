@@ -1,12 +1,17 @@
-<header class="header">
+<header class="page-header">
     <div class="header-top">
         <div class="header-top__content">
             <span>FREE SHIPPING OVER $500<span> Call 888.243.9445 Monday-Friday 6 AM-7 PM CT
         </div>
-        <div class="header-top__search-form-container">
-            <form class="header-search-form" action="index.html" method="post">
-                <input class="header-search-form__input" type="text" name="" value="" placeholder="I'm looking for...">
-                <button class="header-search-form__submit" type="submit" name="button">
+        <div class="minisearch-container">
+            <form class="minisearch" action="index.html" method="post">
+                <div class="minisearch__label-wrapper">
+                    <label class="minisearch__label" for="search"><span>Seach</span></label>
+                </div>
+                <div class="minisearch__input-wrapper">
+                    <input class="minisearch__input" type="text" name="" value="" placeholder="I'm looking for...">
+                </div>
+                <button class="minisearch__submit" type="submit" name="button">
                     <i class="fa fa-search" aria-hidden="true"></i>
                 </button>
             </form>

@@ -1,4 +1,11 @@
 
+.transition(@property:all, @duration:0.2s, @ease:ease-in-out) {
+  -webkit-transition: @property @duration @ease;
+  -moz-transition: @property @duration @ease;
+  -o-transition: @property @duration @ease;
+  -ms-transition: @property @duration @ease;
+  transition: @property @duration @ease;
+}
 
 @import 'reset.less';
 @import 'grid/flexbox-grid.less';
@@ -23,6 +30,8 @@
 @import 'components/section.less';
 @import 'components/product-item.less';
 @import 'components/banner.less';
+@import 'components/typography.less';
+@import 'components/page-title.less';
 
 * {
     box-sizing: border-box;

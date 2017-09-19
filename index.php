@@ -6,6 +6,7 @@
     <body>
         <?php include('templates/header.php'); ?>
         <?php include('templates/page-title.php') ?>
+        <?php include('templates/cta-large.php') ?>
         <?php //include('templates/banner.php'); ?>
         <?php //include('templates/hero.php'); ?>
         <?php //include('templates/deals.php'); ?>

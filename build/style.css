@@ -2673,6 +2673,30 @@ main-navigation__item:hover .main-navigation__link:after {
     max-width: 870px;
   }
 }
+.hero-ad {
+  background-size: cover;
+  background-position: center;
+  padding: 100px 50px;
+}
+.hero-ad__title,
+.hero-ad__sub-title {
+  color: #fff;
+  text-transform: uppercase;
+}
+.hero-ad__title--serif {
+  font-weight: 400;
+  font-family: 'Oswald';
+  font-size: 10.6rem;
+}
+.hero-ad__title--san-serif {
+  font-weight: 700;
+  font-family: 'Prompt';
+  font-size: 6.7rem;
+}
+.hero-ad__sub-title {
+  font-size: 2.2rem;
+  margin-bottom: 1.25em;
+}
 .product-ad__outer-container {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4105,6 +4129,10 @@ p {
 .header--serif {
   font-weight: 400;
   font-family: 'Oswald';
+}
+.header--san-serif {
+  font-weight: 700;
+  font-family: 'Prompt';
 }
 .page-header-container {
   background-color: #e2e2e3;

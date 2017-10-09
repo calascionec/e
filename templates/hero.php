@@ -33,3 +33,12 @@
         </div>
     </article>
 </div>
+
+
+<!-- <div class="grid grid--container-lg grid--xs-no-gutters grid--sm-add-gutters">
+    <article class="hero-ad text--center" style="background-image: url('/assets/images/hero-ad.jpg');">
+        <h1 class="hero-ad__title hero-ad__title--serif">Save up to 25% on high bay</h1>
+        <div class="hero-ad__sub-title">Now Through X/X/17</div>
+        <a class="button button--on-image button--orange" href="#">Shop Now</a>
+    </article>
+</div> -->
